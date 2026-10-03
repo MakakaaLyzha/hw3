@@ -1,42 +1,212 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Div Grid</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Макет сайта</title>
+    <link rel="StyleSheet" href="StyleSheet.css">
 </head>
 <body>
-    <div class="row">
 
-        <div class="column">
-            <div class="row">
-   
-                <div class="column">
-                    <div class="soft-square1"></div>
-                    <div class="soft-square2"></div>
-                </div>
+<div class="container">
 
+    <header class="header">
+        <div class="logo">mattee</div>
+        <nav class="header-nav">
+            <a href="#" class="nav-link">Вакансии</a>
+            <a href="#" class="nav-link">Работодателям</a>
+        </nav>
+        <button class="btn-blue">Опубликовать</button>
+    </header>
 
-                <div class="column">
-                    <div class="row">
-                        <div class="soft-square4"></div>
-                        <div class="soft-square8"></div>
-                    </div>
-                    <div class="soft-square9"></div>
-                </div>
-            </div>
-           <div class="row">
-                <div class="soft-square3"></div>
-                <div class="soft-square7"></div>
-            </div>
+    <div class="hero-banner">
+        
 
-        </div>
-
-        <div class="column">
-            <div class="soft-square5"></div>
-            <div class="soft-square6"></div>
-        </div>
+        <h1 class="banner-title">Больше вакансий<br>в telegram-канале</h1>
+        <button class="btn-black">Перейти в ТГ канал</button>
     </div>
+
+    <div class="main-layout">
+
+        <aside class="sidebar">
+            
+
+            <div class="search-box">Поиск</div>
+
+            <div>
+                <div class="filter-label">Формат</div>
+                <div class="chips-group">
+                    <span class="chip">Парт-тайм</span>
+                    <span class="chip">Фулл-тайм</span>
+                    <span class="chip">Стажировка</span>
+                </div>
+            </div>
+
+            <div>
+                <div class="filter-label">Формат</div>
+                <div class="chips-group">
+                    <span class="chip">Офис</span>
+                    <span class="chip">Удаленно</span>
+                    <span class="chip">Гибрид</span>
+                </div>
+            </div>
+
+            <div>
+                <div class="filter-label">Грейд</div>
+                <div class="chips-group">
+                    <span class="chip">Junior</span>
+                    <span class="chip">Middle</span>
+                    <span class="chip">Senior</span>
+                    <span class="chip">Lead</span>
+                    <span class="chip">Head</span>
+                </div>
+            </div>
+
+            <div>
+                <div class="filter-label">Локация</div>
+                <div class="location-list">
+                    <div class="location-item"><span>Москва</span><span class="checkbox-fake"></span></div>
+                    <div class="location-item"><span>Санкт-Петербург</span><span class="checkbox-fake"></span></div>
+                    <div class="location-item"><span>Казань</span><span class="checkbox-fake"></span></div>
+                    <div class="location-item"><span>Нижний Новгород</span><span class="checkbox-fake"></span></div>
+                </div>
+            </div>
+
+            <div>
+                <div class="filter-label">Зарплата</div>
+                <div class="salary-inputs">
+                    <div class="salary-input">Минимум</div>
+                    <div class="salary-input">Максимум</div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="cards-grid">
+
+            <div class="card">
+                <div class="badge-new">новая</div>
+                <div class="card-company">
+                    <span class="company-icon icon-tbank"></span> Т-Банк
+                </div>
+                <div class="card-title">Художник концепт-арта</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="badge-new">новая</div>
+                <div class="card-company">
+                    <span class="company-icon icon-tbank"></span> Apple
+                </div>
+                <div class="card-title">UI/UX Дизайнер</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-company"><span class="company-icon icon-tbank"></span> ВТБ</div>
+                <div class="card-title">Графический дизайнер</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-company"><span class="company-icon icon-tbank"></span> Т-Банк</div>
+                <div class="card-title">Промышленный дизайнер</div>
+                <div class="card-location">Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-company"><span class="company-icon icon-tbank"></span> Apple</div>
+                <div class="card-title">Диджитал дизайнер</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-company"><span class="company-icon icon-tbank"></span> ВТБ</div>
+                <div class="card-title">Художник концепт-арта</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-company"><span class="company-icon icon-tbank"></span> Т-Банк</div>
+                <div class="card-title">Промышленный дизайнер</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-company"><span class="company-icon icon-tbank"></span> Т-Банк</div>
+                <div class="card-title">Промышленный дизайнер</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-company"><span class="company-icon icon-tbank"></span> Т-Банк</div>
+                <div class="card-title">Промышленный дизайнер</div>
+                <div class="card-location"> Москва, формат работы</div>
+                <div class="card-details">
+                    <span class="card-salary">280 000 ₽</span>
+                    <span class="card-meta">Фулл-тайм</span>
+                    <span class="card-meta">Junior</span>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <footer class="footer">
+
+        <button class="btn-blue">Опубликовать вакансию</button>
+
+        <nav class="footer-links">
+            <a href="#" class="footer-link">Вакансии</a>
+            <a href="#" class="footer-link">Работодателям</a>
+            <a href="#" class="footer-link">Telegram</a>
+            <a href="#" class="footer-link">Техподдержка</a>
+        </nav>
+
+        <div class="footer-logo">mattee</div>
+        <div class="copyright">© 2025</div>
+    </footer>
+
+</div>
+
 </body>
 </html>
