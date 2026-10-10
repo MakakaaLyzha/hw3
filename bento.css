@@ -8,9 +8,9 @@
 .column {
     display: flex;
     flex-direction: column;
+
     gap: 20px;
 }
-
 .soft-square1 {
     width: 453px;
     height: 673px;
@@ -21,17 +21,17 @@
 .soft-square2 {
     width: 453px;
     height: 332px;
-    background-color: mediumslateblue;
+    background-color:mediumslateblue;
     border-radius: 24px;
 }
 
 .soft-square3 {
     width: 955px;
     height: 408px;
+
     background-color: mediumslateblue;
     border-radius: 24px;
 }
-
 .soft-square4 {
     width: 505px;
     height: 408px;
@@ -62,11 +62,10 @@
 
 .soft-square8 {
     width: 480px;
-    height: 403px;
+    height:403px;
     background-color: mediumslateblue;
     border-radius: 24px;
 }
-
 .soft-square9 {
     width: 1007px;
     height: 607px;
